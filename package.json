@@ -12,6 +12,7 @@
   "dependencies": {
     "@capacitor/core": "^5.7.0",
     "@capacitor/ios": "^5.7.0",
+    "@tanstack/react-query": "^5.22.2",
     "@tanstack/react-router": "^1.16.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
