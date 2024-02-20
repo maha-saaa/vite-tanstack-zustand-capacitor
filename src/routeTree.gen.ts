@@ -11,8 +11,8 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-import { Route as UsersRouteImport } from './routes/users/route'
-import { Route as RouteImport } from './routes/route'
+import { Route as UsersRouteImport } from './routes/users'
+import { Route as RouteImport } from './routes'
 
 // Create/Update Routes
 

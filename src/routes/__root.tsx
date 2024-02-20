@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
+import { createRootRoute, Outlet } from "@tanstack/react-router";
 
 const TanStackRouterDevtools =
   process.env.NODE_ENV === "production"
@@ -16,12 +16,6 @@ const TanStackRouterDevtools =
 export const Route = createRootRoute({
   component: () => (
     <>
-      <div className="p-2 flex gap-2">
-        <Link to="/">
-          Home
-        </Link>
-      </div>
-      <hr />
       <Outlet />
       <Suspense>
         <TanStackRouterDevtools />

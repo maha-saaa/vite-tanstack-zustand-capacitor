@@ -1,11 +1,11 @@
-import TanstackQueryProvider from "./providers/query-client-provider";
-import TanstackRouterProvider from "./providers/router-provider";
+import QueryClientProviderWrapper from "./providers/query-client-provider";
+import RouterProviderWrapper from "./providers/router-provider";
 
 function App() {
   return (
-    <TanstackQueryProvider>
-      <TanstackRouterProvider />
-    </TanstackQueryProvider>
+    <QueryClientProviderWrapper>
+      <RouterProviderWrapper />
+    </QueryClientProviderWrapper>
   );
 }
 
